@@ -82,7 +82,7 @@ const Index = () => {
             <div className="flex h-8 w-8 items-center justify-center rounded bg-foreground">
               <Icon name="Wrench" size={18} className="text-background" />
             </div>
-            <span className="font-display text-xl font-bold uppercase tracking-wider">ТехноРемонт</span>
+            <span className="font-display text-xl font-bold uppercase tracking-wider">ПКМариуполь</span>
           </button>
           <nav className="hidden md:flex items-center gap-7">
             {NAV.map((n) => (
@@ -303,9 +303,9 @@ const Index = () => {
             <div className="flex h-8 w-8 items-center justify-center rounded bg-background">
               <Icon name="Wrench" size={18} className="text-foreground" />
             </div>
-            <span className="font-display text-xl font-bold uppercase tracking-wider">ТехноРемонт</span>
+            <span className="font-display text-xl font-bold uppercase tracking-wider">ПКМариуполь</span>
           </div>
-          <p className="text-sm text-background/60">© 2026 ТехноРемонт. Все права защищены.</p>
+          <p className="text-sm text-background/60">© 2026 ПКМариуполь. Все права защищены.</p>
         </div>
       </footer>
     </div>
