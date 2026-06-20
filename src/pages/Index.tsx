@@ -79,9 +79,7 @@ const Index = () => {
       <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
         <div className="container flex h-16 items-center justify-between">
           <button onClick={() => scrollTo('home')} className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded bg-foreground">
-              <Icon name="Wrench" size={18} className="text-background" />
-            </div>
+            <img src="https://cdn.poehali.dev/projects/dba610b5-f7e9-4b4f-a62c-f5263fc65973/bucket/12aeab81-8f87-42a8-b3ec-861c8b6303d8.png" alt="ПКМариуполь" className="h-10 w-10 object-contain" />
             <span className="font-display text-xl font-bold uppercase tracking-wider">ПКМариуполь</span>
           </button>
           <nav className="hidden md:flex items-center gap-7">
@@ -300,9 +298,7 @@ const Index = () => {
       <footer className="border-t border-border bg-foreground text-background">
         <div className="container flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
           <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded bg-background">
-              <Icon name="Wrench" size={18} className="text-foreground" />
-            </div>
+            <img src="https://cdn.poehali.dev/projects/dba610b5-f7e9-4b4f-a62c-f5263fc65973/bucket/12aeab81-8f87-42a8-b3ec-861c8b6303d8.png" alt="ПКМариуполь" className="h-10 w-10 object-contain" />
             <span className="font-display text-xl font-bold uppercase tracking-wider">ПКМариуполь</span>
           </div>
           <p className="text-sm text-background/60">© 2026 ПКМариуполь. Все права защищены.</p>
