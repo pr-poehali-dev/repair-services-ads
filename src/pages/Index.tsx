@@ -257,9 +257,9 @@ const Index = () => {
             <p className="mt-4 text-muted-foreground">Перезвоним в течение 15 минут, бесплатно проконсультируем и подберём удобное время для ремонта.</p>
             <div className="mt-8 space-y-4">
               {[
-                { icon: 'Phone', t: '+7 (900) 000-00-00', d: 'Ежедневно с 9:00 до 21:00' },
-                { icon: 'Mail', t: 'info@technoremont.ru', d: 'Ответим в течение часа' },
-                { icon: 'MapPin', t: 'г. Москва, ул. Примерная, 1', d: 'Приём техники в сервисе' },
+                { icon: 'Phone', t: '+7 949 746-61-53', d: 'Ежедневно с 9:00 до 21:00' },
+                { icon: 'Mail', t: 'info@pcmariupol.ru', d: 'Ответим в течение часа' },
+                { icon: 'MapPin', t: 'г. Мариуполь, Восточный-1, Олимпийская 181а', d: 'За школой №5, приём техники в сервисе' },
               ].map((c) => (
                 <div key={c.t} className="flex items-center gap-4">
                   <div className="flex h-11 w-11 items-center justify-center rounded bg-secondary">
