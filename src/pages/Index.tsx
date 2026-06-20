@@ -202,7 +202,7 @@ const Index = () => {
           <span className="text-xs font-medium uppercase tracking-widest text-muted-foreground">О компании</span>
           <h2 className="mt-2 font-display text-3xl font-bold uppercase tracking-tight md:text-5xl">Почему выбирают нас</h2>
           <p className="mt-5 text-muted-foreground">
-            «ТехноРемонт» — это команда сертифицированных инженеров с 14-летним опытом. Мы ремонтируем технику любой сложности и берёмся за случаи, от которых отказываются другие.
+            «ПКМариуполь» — это команда сертифицированных инженеров с 14-летним опытом. Мы ремонтируем технику любой сложности и берёмся за случаи, от которых отказываются другие.
           </p>
           <p className="mt-3 text-muted-foreground">
             Используем оригинальные комплектующие, фиксируем каждый этап работы на фото и даём официальную гарантию.
