@@ -37,7 +37,7 @@ const STATS = [
   { value: '12 000+', label: 'выполненных ремонтов' },
   { value: '14 лет', label: 'на рынке' },
   { value: '24 ч', label: 'средний срок ремонта' },
-  { value: '12 мес', label: 'гарантия на работы' },
+  { value: '3 мес', label: 'гарантия на работы' },
 ];
 
 const BeforeAfter = ({ image, title, tag }: { image: string; title: string; tag: string }) => {
@@ -118,7 +118,7 @@ const Index = () => {
               Ремонт техники,<br />которой доверяют
             </h1>
             <p className="mt-5 max-w-md text-lg text-muted-foreground">
-              Компьютеры, ноутбуки и телевизоры. Диагностика бесплатно, гарантия до 12 месяцев, мастер выезжает в день обращения.
+              Компьютеры, ноутбуки и телевизоры. Диагностика бесплатно, гарантия до 3 месяцев, мастер выезжает в день обращения.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" onClick={() => scrollTo('contacts')}>
@@ -133,7 +133,7 @@ const Index = () => {
             <div className="grid w-full grid-cols-2 gap-4">
               {[
                 { icon: 'Clock', t: 'Срочный ремонт', d: 'В день обращения' },
-                { icon: 'BadgeCheck', t: 'Гарантия', d: 'До 12 месяцев' },
+                { icon: 'BadgeCheck', t: 'Гарантия', d: 'До 3 месяцев' },
                 { icon: 'Wallet', t: 'Честные цены', d: 'Без скрытых доплат' },
                 { icon: 'Users', t: 'Опыт', d: '14 лет на рынке' },
               ].map((c, i) => (
